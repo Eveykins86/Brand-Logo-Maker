@@ -1,7 +1,9 @@
+//Used async to properly run node .index.js
 async function run() {
   const inquirer = (await import("inquirer")).default;
   const { Svg } = await import("./lib/shapes.js");
 
+  //function to prompt questions
   function prompts() {
     inquirer
       .prompt([
@@ -45,6 +47,7 @@ async function run() {
       });
   }
 
+  //function to have logo saved into "examples" folder
   function saveSvgToFile(svgContent) {
     const fs = require("fs");
     const path = require("path");
@@ -64,11 +67,12 @@ async function run() {
     });
   }
 
+  //function to start questions
   function init() {
     prompts();
   }
 
   init();
 }
-
+//Will not work without this Timeout
 setTimeout(run, 0);
