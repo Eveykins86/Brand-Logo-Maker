@@ -19,6 +19,13 @@ Requires nodejs and inquirer. Clone the repo and then run npm install to install
 Run node index.js to start the questions. The file will be saved as logo.svg in the "examples" directory.
 
 ## Preview
+
+Here is a video of the application in action and the test done with jest:
+
+https://drive.google.com/file/d/1bnzFVzj5DmN2FEE7RWNYUVL4OXJCZFIs/view
+
+Here are screen shots of the example SVG that is saved in the "examples" directory.
+
 ![Sample](examples/Sample.png)
 ![GeneratedSample](examples/GeneratedSample.png)
 
@@ -38,3 +45,5 @@ GitHub: [Eveykins86](https://github.com/Eveykins86)
 Feel free to reach out via email:
 
 Email: evey.plt@gmail.com
+
+Happy Coding!!
